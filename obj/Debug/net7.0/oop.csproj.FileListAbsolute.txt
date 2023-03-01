@@ -1,0 +1,15 @@
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\bin\Debug\net7.0\oop.exe
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\bin\Debug\net7.0\oop.deps.json
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\bin\Debug\net7.0\oop.runtimeconfig.json
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\bin\Debug\net7.0\oop.dll
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\bin\Debug\net7.0\oop.pdb
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.csproj.AssemblyReference.cache
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.AssemblyInfoInputs.cache
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.AssemblyInfo.cs
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.csproj.CoreCompileInputs.cache
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.dll
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\refint\oop.dll
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.pdb
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\oop.genruntimeconfig.cache
+C:\Users\vbasi\OneDrive\Área de Trabalho\oop\obj\Debug\net7.0\ref\oop.dll
