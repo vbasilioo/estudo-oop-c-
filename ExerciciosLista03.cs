@@ -1,6 +1,6 @@
-﻿using System;
+﻿//using System;
 
-namespace Program{
+/*namespace Program{
     class Aluno{
         public int idade { get; set; }
         public string nome { get; set; }
@@ -161,4 +161,4 @@ namespace Program{
             }
         }
     }
-}
+}*/
