@@ -11,19 +11,24 @@ using System.Globalization;
 
 class Encapsulamento{
     private string _nome;
-    private double _preco;
     private int _quantidade;
+
+    //AUTO PROPRIEDADES (usado direto no atributo) -> podia ser aplicado pra _quantidade tbm
+    // nao precisa do _ quando for usar auto propriedade
+    //serve para declarar propriedades que nao necessitam de uma logica particular na operacao de get e set
+    // get = retorna o nome |||| private set = ngm pode alterar o preco
+    public double Preco{ get; private set; }
 
     public Encapsulamento(string nome, double preco, int quantidade){
         this._nome = nome;
-        this._preco = preco;
+        this.Preco = preco;
         this._quantidade = quantidade;
     }
 
     //acessando o atributo privativo _nome e retornando [get = retorna]
     // retorna só o nome
 
-    public string getNome(){
+    /*public string getNome(){
         return _nome;
     }
 
@@ -41,10 +46,26 @@ class Encapsulamento{
         if(nome!=null && nome.Length > 0){ //se nome for diferente de vazio e tiver caracter maior que 0 [verificando com lenght]
             this._nome = nome;
         }
+    }*/
+
+    // ---------------------------- MELHOR FORMA DE FAZER 'GET' E 'SET'
+    // value = como se fosse o parametro recebido entre (), mas usa-se a palavra chave 'value'
+    // nome dessa 'public string nome' se chama propriedade, como qlq um que tiver get e set dentro
+    public string Nome{
+        get{ return _nome; }
+        set{  
+            if(value != null && value.Length > 0){ //se nome for diferente de vazio e tiver caracter maior que 0 [verificando com lenght]
+                this._nome = value;
+            }
+        }
+    }
+
+    public int Quantidade{
+        get{ return _quantidade; }
     }
 
     public double valorTotalEstoque(){
-        return _preco * _quantidade;
+        return Preco * _quantidade;
     }
 
     public void adicionarProduto(int quantidade){
@@ -58,10 +79,21 @@ class Encapsulamento{
     public override string ToString(){
         return _nome 
         + ", R$" 
-        + _preco.ToString("F2", CultureInfo.InvariantCulture) 
+        + Preco.ToString("F2", CultureInfo.InvariantCulture) 
         + ", " 
         + _quantidade
         + " unidades, Total: R$"
         + valorTotalEstoque().ToString("F2", CultureInfo.InvariantCulture);
     }
 }
+
+//ordem pra construir a classe
+
+// classe
+// atributos privados
+// auto propriedades
+// construtores
+// propriedades customizadas
+// metodos
+
+//MODIFICADORES DE ACESSO [pesquisar]

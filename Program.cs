@@ -2,6 +2,8 @@ class Program{
     static void Main(string[] args){
         Encapsulamento e = new Encapsulamento("TV", 500.00, 10);
 
+        /* INICIO DO GET E SET RUIM
+
         //chamando o metodo get da classe
         Console.WriteLine(e.getNome());
 
@@ -12,5 +14,11 @@ class Program{
         Console.WriteLine(e.getNome());
         Console.WriteLine(e.getPreco());
         Console.WriteLine(e.getQuantidade());
+        */
+
+        // inicio do get e set BOM
+
+        e.Nome = "TV Gatona";
+        Console.WriteLine(e.Nome);
     }
 }
