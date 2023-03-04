@@ -1,0 +1,9 @@
+//  RESOLVENDO PUSH REJEITADO POR HISTORICO DIFERENTE
+
+> dar pull (git pull origin master) para atualizar os arquivos desatualizados
+(se to na versao 1, e o git ja ta na versao 2, tenho q atualizar)
+(esc pra sair do modo ediçao)
+> digitar ':wc' e vai salvar ja atualizando com outro arquivo
+
+// SE ESTIVEREM MEXENDO NO MSM ARQUIVO E DAR CONFLITO:
+> dar pull e decidir ql é o certo atraves do vs code

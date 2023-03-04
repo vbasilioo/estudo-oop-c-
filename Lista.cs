@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 
 class Lista{
@@ -24,7 +24,7 @@ class Lista{
 
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-    static void Main(string[] args){
+    /*static void Main(string[] args){
         //List <nome da lista> nome;
         //List<string> list;
 
@@ -100,4 +100,4 @@ class Lista{
         }
     }
 
-}
+}*/
